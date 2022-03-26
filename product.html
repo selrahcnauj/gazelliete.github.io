@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gazelliete</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+	<link rel="stylesheet" href="styles.css">
+
+	<!-- <FAVICON> -->
+	<link rel="icon" href="./img/icons/favicon_io/fav_icon.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/icons/favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="./img/icons/favicon_io/site.webmanifest">
+	<!-- FONT -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<script type="text/javascript" src="./js/script.js"></script>
+	<script src="https://kit.fontawesome.com/4787bb6131.js" crossorigin="anonymous"></script>
+</head>
+<body onload="navStartScroll()">
+	<!-- NAV BAR -->
+	<script id="replace_with_navbar" src="./js/nav.js"></script>
+	<!-- END OF NAV BAR -->
+
+	<main class="container nav-space">
+
+		<div class="wrapper banner-parent">
+			<a class="banner-ad bot-pad " style="background-image: url('./img/stock/B1.png')" onclick="smoothScroll(document.getElementById('sale'));">
+				<div class="banner-content img-blur">
+					<div class="banner-text-container">
+						<span>SUMMER</span>
+						<span>SALE</span>
+					</div>
+					<div class="banner-text-container">
+						<span>UP TO
+						30% OFF</span>
+					</div>
+					<div class="banner-text-container">
+						<span>on selected products</span>
+					</div>
+				</div>
+			</a>
+		</div>
+
+		<!-- NEW ARRIVALS -->
+		<div class="wrapper rec-parent" id="product-new">
+
+			<div class="rec-container">
+				<div class="rec-title-container">
+					<span>New Arrivals</span>
+				</div>
+
+				<div class="rec-content-list-parent">
+					<ul class="rec-content-list">
+
+						<!-- ITEM 1 -->
+						<li>
+							<a href="item-moo.html" class="rec-item img-blur" style="background-image: url('./img/tshirt/BB1/01.jpg');"
+							href="#">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Moo</span>
+								  		<span id="rec-type"> LIMITED EDITION</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 655</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+			 			<!-- ITEM 2 -->
+
+			 			<li>
+			 				<a href="item-vague.html" class="rec-item img-blur" style="background-image: url('./img/tshirt/CA1/01W.jpg');">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Vágue</span>
+								  		<span id="rec-type">LIMITED SERIES</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 599</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+			 			<!-- ITEM 3 -->
+
+			 			<li>
+			 				<a href="item-radiant.html" class="rec-item img-blur" style="background-image: url('./img/tshirt/DA1/01R.jpg');" href="#">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Radiant</span>
+								  		<span id="rec-type">LIMITED SERIES</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 799</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- SALE  -->
+		<div class="wrapper rec-parent" id="product-sale">
+
+			<div class="rec-container">
+				<div class="rec-title-container">
+					<span>Sale</span>
+				</div>
+
+				<div class="rec-content-list-parent">
+					<ul class="rec-content-list">
+
+						<!-- ITEM 1 -->
+						<li>
+							<a href="item-vision.html" class="rec-item img-blur" style="background-image: url('./img/tshirt/AA1/02.jpg');"
+							href="#">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Vision</span>
+								  		<span id="rec-type">SERIES</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 450</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+			 			<!-- ITEM 2 -->
+
+			 			<li>
+			 				<a href="item-shiroi.html"  class="rec-item img-blur" style="background-image: url('./img/tshirt/CC1/01J.jpg');">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Shiroi</span>
+								  		<span id="rec-type">SPECIAL SERIES</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 360</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+			 			<!-- ITEM 3 -->
+
+			 			<li>
+			 				<a href="item-minima.html"  class="rec-item img-blur" style="background-image: url('./img/tshirt/CD1/03M.jpg');" href="#">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Minimá</span>
+								  		<span id="rec-type">SERIES</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 455</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- ALL -->
+
+		<div class="wrapper bot-pad rec-parent">
+
+			<div class="rec-container">
+				<div class="rec-title-container">
+					<span>All</span>
+				</div>
+
+				<div class="rec-content-list-parent">
+					<ul class="rec-content-list">
+
+						<!-- ITEM 1 -->
+						<li>
+							<a href="item-sphere.html"  class="rec-item img-blur" style="background-image: url('./img/tshirt/AB1/02.jpg');"
+							href="#">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Sphère Bk</span>
+								  		<span id="rec-type">SERIES</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 540</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+			 			<!-- ITEM 2 -->
+
+			 			<li>
+			 				<a href="item-spectrum.html" class="rec-item img-blur" style="background-image: url('./img/tshirt/BA1/01L.jpg');">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Spectrúm</span>
+								  		<span id="rec-type">LIMITED EDITION</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 850</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+			 			<!-- ITEM 3 -->
+
+			 			<li>
+			 				<a href="item-chroma.html"  class="rec-item img-blur" style="background-image: url('./img/tshirt/BC1/01C.jpg');" href="#">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Chroma</span>
+								  		<span id="rec-type">SPECIAL EDITION SERIES</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 450</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+			 			<!-- ITEM 4 -->
+
+			 			<li>
+			 				<a href="item-lucid.html" class="rec-item img-blur" style="background-image: url('./img/tshirt/DB1/02L.jpg');" href="#">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Lucid</span>
+								  		<span id="rec-type">SPECIAL SERIES</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 850</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+	</main>
+
+	<!-- FOOTER -->
+	<script id="replace_with_footer" src="./js/footer.js"></script>
+	<!-- END OF FOOTER -->
+
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="./js/slick-bg.js"></script>
+
+</body>
+</html>

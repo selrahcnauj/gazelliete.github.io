@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  /* outline: none; */
+}
+
+main {
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+ 
+  height: 100vh;
+  width: 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  /* filter: blur(2px) brightness(30%); */
+}
+
+/* FEEDBACK */
+.align {
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.container1 {
+  width: 360px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 8px rgba(255, 158, 47, 0.534);
+  /* opacity: 0.6; */
+  color: white;
+}
+
+.container1 form {
+  width: 100%;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+form h1 {
+  padding: 10px 0;
+}
+
+form .id {
+  position: relative;
+  color: white;
+}
+
+.id {
+  color: white;
+}
+
+.id i {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+form input {
+  width: 100%;
+  height: 50px;
+  margin: 4px 0;
+  border: 1px solid #5c5c5c;
+  border-radius: 3px;
+  background: #181717;
+  padding: 0 15px;
+  font-size: 20px;
+  color: white;
+  padding-right: 45px;
+}
+
+form textarea {
+  padding: 5px 15px;
+  border: 1px solid #5c5c5c;
+  border-radius: 3px;
+  background: #181717;
+  font-size: 20px;
+  width: 100%;
+  margin: 5px 0;
+  color: white;
+}
+
+form button {
+  margin-top: 5px;
+  border: none;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px 0;
+  width: 100%;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+form button:hover {
+  transition: all 0.3 ease 0s;
+  background-color: #ffbb28d5;
+}
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #ffb71d;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+form input:focus::placeholder,
+form textarea:focus::placeholder {
+  padding-left: 4px;
+  color: #ffbd2d;
+  transition: all 0.3s ease;
+}
+
+form input:focus + i {
+  color: #ffbd2d;
+  transition: all 0.3s ease;
+}
+
+

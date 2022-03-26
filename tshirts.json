@@ -1,0 +1,286 @@
+{
+  "item_list": {
+    "AA1": {
+      "name": "Vision",
+      "type": "Series",
+      "price": "450",
+      "variation": {
+        "GZ-AA1-01": {
+          "image": "./img/tshirt/AA1/01.jpg",
+          "model": "./img/tshirt/AA1/model/01.jpg"
+        },
+        "GZ-AA1-02": {
+          "image": "./img/tshirt/AA1/02.jpg",
+          "model": null 
+        },
+        "GZ-AA1-03": {
+          "image": "./img/tshirt/AA1/03.jpg",
+          "model": null
+        }
+      },
+      "size": {
+        "S": true,
+        "M": true,
+        "XL": true,
+        "L": true,
+        "XS": false
+      }
+    },
+    
+    "AB1": {
+      "name": "Sphère Bk",
+      "type": "Series",
+      "price": "540",
+      "variation": {
+        "GZ-AB1-01": 
+        {
+        "image": "./img/tshirt/AB1/01.jpg",
+        "model": "./img/tshirt/AB1/model/01.jpg"
+        },
+        "GZ-AB1-02": 
+        {
+        "image": "./img/tshirt/AB1/02.jpg",
+        "model": "./img/tshirt/AB1/model/02.jpg"
+        },
+        "GZ-AB1-03": {
+        "image": "./img/tshirt/AB1/03.jpg",
+        "model": null
+        }
+      },
+      "size": {
+        "S": true,
+        "M": true,
+        "L": true,
+        "XL": false,
+        "XS": false
+      }
+    },
+    
+    "BA1": {
+      "name": "Spectrúm",
+      "type": "Limited Edition",
+      "price": "850",
+      "variation": {
+        "GZ-BA1-01L": {
+        "image": "./img/tshirt/BA1/01L.jpg",
+        "model": "./img/tshirt/BA1/model/01L.jpg"
+        }
+      },
+      "size": {
+        "XS": false,
+        "S ": true,
+        "M": true,
+        "L": true,
+        "XL": true
+      }
+    },
+    
+    "BB1": {
+      "name": "Moo",
+      "type": "Limited Edition",
+      "price": "655",
+      "variation": {
+        "GZ-BB1-01": {
+        "image": "./img/tshirt/BB1/01.jpg",
+        "model": "./img/tshirt/BB1/model/01.jpg"
+        },
+        "GZ-BB1-02":{
+        "image": "./img/tshirt/BB1/02.jpg",
+        "model": null
+        },
+        "GZ-BB1-03":{
+        "image": "./img/tshirt/BB1/03.jpg",
+        "model": "./img/tshirt/BB1/model/03.jpg"
+        },
+        "GZ-BB1-04":{
+        "image": "./img/tshirt/BB1/04.jpg",
+        "model": "./img/tshirt/BB1/model/04.jpg"
+        }
+      },
+      "size": {
+        "XS ": true,
+        "S": true,
+        "M": true,
+        "L": true,
+        "XL": false
+      }
+    },
+    
+    "BC1": {
+      "name": "Chroma",
+      "type": "Special Edition Series",
+      "price": "450",
+      "variation": {
+        "GZ-BC1-01C":{
+        "image": "./img/tshirt/BC1/01C.jpg",
+        "model": null
+        },
+        "GZ-BC1-02C":{
+        "image": "./img/tshirt/BC1/02C.jpg",
+        "model": null
+        },
+        "GZ-BC1-03C":{
+        "image": "./img/tshirt/BC1/03C.jpg",
+        "model": null
+        },
+        "GZ-BC1-04C":{
+        "image": "./img/tshirt/BC1/04C.jpg",
+        "model": null
+        }
+      },
+      "size": {
+        "XS ": false,
+        "S": true,
+        "M": true,
+        "L": true,
+        "XL": true
+      }
+    },
+    
+    "CA1": {
+      "name": "Vágue",
+      "type": "Limited Series",
+      "price": "599",
+      "variation": {
+        "GZ-CA1-01W":{
+        "image": "./img/tshirt/CA1/01W.jpg",
+        "model": null
+        },
+        "GZ-CA1-02W":{
+        "image": "./img/tshirt/CA1/02W.jpg",
+        "model": null
+        },
+        "GZ-CA1-03W":{
+        "image": "./img/tshirt/CA1/03W.jpg",
+        "model": null
+        },
+        "GZ-CA1-04W":{
+        "image": "./img/tshirt/CA1/04W.jpg",
+        "model": null
+        }
+      },
+      "size": {
+        "XS ": false,
+        "S": true,
+        "M": true,
+        "L": true,
+        "XL": false
+      }
+    },
+    
+    "CC1": {
+      "name": "Shiroi",
+      "type": "Special Series",
+      "price": "360",
+      "variation": {
+        "GZ-CC1-01J":{
+        "image": "./img/tshirt/CC1/01J.jpg",
+        "model": null
+        },
+        "GZ-CC1-02J":{
+        "image": "./img/tshirt/CC1/02J.jpg",
+        "model": null
+        },
+        "GZ-CC1-03J":{
+        "image": "./img/tshirt/CC1/03J.jpg",
+        "model": "./img/tshirt/CC1/model/03J.jpg"
+        }
+      },
+      "size": {
+        "XS ": false,
+        "S": true,
+        "M": true,
+        "L": true,
+        "XL": true
+      }
+    },
+    
+    "CD1": {
+      "name": "Minimá",
+      "type": "Series",
+      "price": "455",
+      "variation": {
+        "GZ-CD1-01M":{
+        "image": "./img/tshirt/CD1/01M.jpg",
+        "model": null
+        },
+        "GZ-CD1-02M":{
+        "image": "./img/tshirt/CD1/02M.jpg",
+        "model": null
+        },
+        "GZ-CD1-03M":{
+        "image": "./img/tshirt/CD1/03M.jpg",
+        "model": null
+        }
+      },
+      "size": {
+        "XS ": false,
+        "S": true,
+        "M": true,
+        "L": true,
+        "XL": false
+      }
+    },
+    "DA1": {
+      "name": "Radiant",
+      "type": "Limited Series",
+      "price": "799",
+      "variation": {
+        "GZ-DA1-01R":{
+        "image": "./img/tshirt/DA1/01R.jpg",
+        "model": null
+        },
+        "GZ-DA1-02R":{
+        "image": "./img/tshirt/DA1/02R.jpg",
+        "model": null
+        },
+        "GZ-DA1-03R":{
+        "image": "./img/tshirt/DA1/03R.jpg",
+        "model": null
+        },
+        "GZ-DA1-04R":{
+        "image": "./img/tshirt/DA1/04R.jpg",
+        "model": null
+        }
+      },
+      "size": {
+        "XS ": false,
+        "S": true,
+        "M": true,
+        "L": true,
+        "XL": false
+      }
+    },
+    
+    "DB1": {
+      "name": "Lucid",
+      "type": "Special Series",
+      "price": "850",
+      "variation": {
+        "GZ-DB1-01L":{
+        "image": "./img/tshirt/DB1/01L.jpg",
+        "model": null
+        },
+        "GZ-DB1-02L":{
+        "image": "./img/tshirt/DB1/02L.jpg",
+        "model": null
+        },
+        "GZ-DB1-03L":{
+        "image": "./img/tshirt/DB1/03L.jpg",
+        "model": null
+        },
+        "GZ-DB1-04L":{
+        "image": "./img/tshirt/DB1/04L.jpg",
+        "model": null
+        }
+      },
+      "size": {
+        "XS ": false,
+        "S": true,
+        "M": true,
+        "L": true,
+        "XL": true
+      }
+    }
+  }
+}

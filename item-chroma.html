@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+	
+	<link rel="stylesheet" href="styles.css">
+
+	<!-- <FAVICON> -->
+	<link rel="icon" href="./img/icons/favicon_io/fav_icon.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/icons/favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="./img/icons/favicon_io/site.webmanifest">
+	<!-- FONT -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<script type="text/javascript" src="./js/script.js"></script>
+	<script src="https://kit.fontawesome.com/4787bb6131.js" crossorigin="anonymous"></script>
+
+	<title>Chroma | Gazelliete</title>
+</head>
+<body>
+
+	<!-- NAV BAR -->
+	<script id="replace_with_navbar" src="./js/nav.js"></script>
+	<!-- END OF NAV BAR -->
+
+	<main class="container nav-space">
+		<div class="wrapper item-container">
+			<div class="item-image-container">
+				<img id="item-image" src="./img/tshirt/BC1/01C.jpg" draggable="false"/> 
+				
+				<ul class="item-model-list">
+
+					<!-- ITEM 1 -->
+					<!-- <li>
+						<div class="model-item" style="background-image: url('./img/tshirt/AA1/model/01.jpg');" draggable="false"></div>
+		 			</li> -->
+
+		 			<!-- ITEM 2 -->
+
+		 			
+					
+				</ul>
+				
+			</div>
+			<div class="item-desc-container">
+				<div class="item-name-container">
+					<div>
+						<span id="item-name">Chroma</span>
+						<span id="item-type">Special Edition Series</span>
+					</div>
+						
+					<span id="item-price">Php 450</span>
+					
+				</div>
+
+				<!-- SIZE -->
+				<div class="item-select-container">
+					<span class="item-select-text">SIZES</span>
+					<div class="item-select-list-parent" id="item-select-size-parent">
+
+						<ul>
+							<!-- <li id="size-xs">
+								<button class="item-select-item size-select">XS</button>
+							</li> -->
+							<li id="size-s">
+								<button class="item-select-item size-select">S</button>
+							</li>
+							<li  id="size-m">
+								<button class="item-select-item size-select">M</button>
+							</li>
+							<li id="size-l">
+								<button class="item-select-item size-select">L</button>
+							</li>
+							<li id="size-xl">
+								<button class="item-select-item size-select">XL</button>
+							</li>
+						</ul>
+						<div class="item-select-chart-container ">
+								
+							<a href="chart.html" target="_blank">see size chart</a>
+						</div>
+					</div>
+				</div>
+
+				<script type="text/javascript"></script>
+				<!-- QUANTITY -->
+				<div class="item-select-container">
+					<span class="item-select-text">QUANTITY</span>
+					<div class="item-select-list-parent" id="item-select-qty-parent">
+
+						<ul>
+							<li>
+								<button class="item-select-item qty-select">1</button>
+							</li>
+							<li>
+								<button class="item-select-item qty-select">2</button>
+							</li>
+							<li>
+								<button class="item-select-item qty-select">3</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- VARIATION -->
+				<div class="item-select-container" id="item-select-var">
+					<div class="item-select-text"><span >VARIATION</span>
+					<span id="item-code">GZ-BC1-01C</span></div>
+					
+					<div class="item-select-list-parent" id="item-select-var-parent">
+
+						<ul id="item-select-var-list">
+							<li >
+								<button class="var-select ">
+									<img src="./img/tshirt/BC1/01C.jpg" class="item-select-var " onclick="selectVar(this)" alt="GZ-BC1-01C" draggable="false"/>
+								</button>
+							</li>
+							<li >
+								<button class="var-select">
+									<img src="./img/tshirt/BC1/02C.jpg" class="item-select-var " onclick="selectVar(this)" alt="GZ-BC1-02C" draggable=" false"/>
+								</button>
+							</li>
+							<li >
+								<button  class="var-select">
+									<img src="./img/tshirt/BC1/03C.jpg" class="item-select-var " onclick="selectVar(this)" alt="GZ-BC1-03C" draggable="false"/>
+								</button>
+							</li>
+							<li >
+								<button  class="var-select">
+									<img src="./img/tshirt/BC1/04C.jpg" class="item-select-var " onclick="selectVar(this)" alt="GZ-BC1-04C" draggable="false"/>
+								</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- BUTTONS -->
+				<div class="cart-btns-container">
+					<button onclick="addToLike()" class="heart-btn"><img src="./img/icons/icHeart.svg" draggable="false"/>
+					</button>
+					<button onclick="addToCart()" class="cart-btn"><img src="./img/icons/icCart.svg" draggable="false"/> Add to Cart</button>
+				</div>
+
+				<div class="item-description">
+				About This Product
+				</br>
+				• Round Neckline</br>
+				• Available for all sizes</br>
+				• Breathable</br>
+				• 100% Authentic Cotton</br>
+			</div>
+			</div>
+		</div>
+
+		<!-- Recommendations -->
+		<div class="wrapper bot-pad rec-parent">
+
+			<div class="rec-container">
+				<div class="rec-title-container">
+					<span>You Might Also Like</span>
+				</div>
+
+				<div class="rec-content-list-parent">
+					<ul class="rec-content-list">
+
+						<!-- ITEM 1 -->
+						<li>
+							<a href="item-vision.html" class="rec-item img-blur" style="background-image: url('./img/tshirt/AA1/01.jpg');"
+							href="#">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Vision</span>
+								  		<span id="rec-type"> SERIES</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 450</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+			 			<!-- ITEM 2 -->
+
+			 			<li>
+			 				<a href="item-sphere.html" class="rec-item img-blur" style="background-image: url('./img/tshirt/AB1/01.jpg');">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Sphère Bk</span>
+								  		<span id="rec-type">SERIES</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 540</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+			 			<!-- ITEM 3 -->
+
+			 			<li>
+			 				<a href="item-radiant.html" class="rec-item img-blur" style="background-image: url('./img/tshirt/DA1/01R.jpg');" href="#">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Radiant</span>
+								  		<span id="rec-type">LIMITED SERIES</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 799</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+			 			<!-- ITEM 4 -->
+
+			 			<li>
+			 				<a href="item-lucid.html" class="rec-item img-blur" style="background-image: url('./img/tshirt/DB1/02L.jpg');" href="#">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Lucid</span>
+								  		<span id="rec-type">SPECIAL SERIES</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 850</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+			 			<!-- ITEM 5 -->
+			 			<li>
+			 				<a href="item-minima.html" class="rec-item img-blur" style="background-image: url('./img/tshirt/CD1/01M.jpg');" href="#">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Minimá</span>
+								  		<span id="rec-type"> SERIES</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 455</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+			 			<!-- ITEM 6 -->
+			 			<li>
+			 				<a href="item-shiroi.html" class="rec-item img-blur" style="background-image: url('./img/tshirt/CC1/01J.jpg');" href="#">
+							  	<div>
+							  		<div class="rec-text-name">
+								  		<span id="rec-name">Shiroi</span>
+								  		<span id="rec-type">SPECIAL SERIES</span>
+							  		</div>
+							  		<div class="rec-text-price">
+							  			<span id="rec-price">Php 360</span>
+							  		</div>
+						  		</div>
+							</a>
+			 			</li>
+
+						
+					</ul>
+				</div>
+
+		</div>
+	</main>
+	<!-- FOOTER -->
+	<script id="replace_with_footer" src="./js/footer.js"></script>
+	<!-- END OF FOOTER -->
+
+
+	
+<!-- JQUERY, SLICK Library -->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="./js/slick-bg.js"></script>
+
+<script type="text/javascript">
+	var buttons = document.querySelectorAll(".size-select");
+ 
+ for (button in buttons) {
+    buttons[button].onclick = function() {
+        console.log('Size Clicked')
+        buttons.forEach(function(btn){
+          btn.classList.remove('item-select-highlight');
+        })
+        this.classList.add('item-select-highlight');
+    }
+}
+
+var buttons2 = document.querySelectorAll(".qty-select");
+ 
+ for (button in buttons2) {
+    buttons2[button].onclick = function() {
+        console.log('Qty Clicked')
+        buttons2.forEach(function(btn){
+          btn.classList.remove('item-select-highlight');
+        })
+        this.classList.add('item-select-highlight');
+    }
+}
+
+var buttons3 = document.querySelectorAll(".var-select");
+ 
+ for (button in buttons3) {
+    buttons3[button].onclick = function() {
+        console.log('Variation Clicked')
+        buttons3.forEach(function(btn){
+          btn.classList.remove('var-select-highlight');
+        })
+        this.classList.add('var-select-highlight');
+    }
+}
+</script>
+
+</body>
+
+
+</html>

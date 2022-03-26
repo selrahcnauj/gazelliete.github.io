@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="FAQs.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>FAQs</title>
+    <script src="https://kit.fontawesome.com/4787bb6131.js" crossorigin="anonymous"></script>
+
+    <!-- <FAVICON> -->
+    <link rel="icon" href="./img/icons/favicon_io/fav_icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./img/icons/favicon_io/site.webmanifest">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" scr="./js/script.js"></script>
+    <script src="https://kit.fontawesome.com/4787bb6131.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- NAV BAR -->
+    <script id="replace_with_navbar" src="./js/nav.js"></script>
+    <!-- END OF NAV BAR -->
+    
+
+    <main class="container nav-space">
+        <div class="accordion">
+            <div class="contentBx">
+                <div class="label">What is the status of my order?</div>
+                <div class="contentt">
+                    <p>We've got you covered! We'll send you an email when items in your order ship or if there are any changes to your order's status. Can't seem to locate the email? Check the status of your order by clicking here. COVID-19 delivery delays are possible: our carriers are currently experiencing delivery problems. Please accept our apologies for any trouble this may create.</p>
+                </div>
+            </div>
+            <div class="contentBx">
+               <div class="label">My discount code is not working, what do I do?</div>
+               <div class="contentt">
+                   <p>We're sorry you're having problems checking out; however, some discount coupons require users to make an account on the site and be logged in while checking out in order to be eligible for the discount.</p>
+               </div>
+           </div>
+           <div class="contentBx">
+               <div class="label"> How long will it take me to get my order?</div>
+               <div class="contentt">
+                   <p>Please allow up to 14 business days for your order to be delivered via our regular shipping method due to carrier delays ("standard" at checkout)</p>
+               </div>
+           </div>
+           <div class="contentBx">
+               <div class="label">How do I return my order?</div>
+               <div class="contentt">
+                   <p>All products can be returned within 30 days of purchase. To begin the returns process, please go to our returns page.</p>
+               </div>
+           </div>
+           <div class="contentBx">
+               <div class="label">What do I do if my order is damaged?</div>
+               <div class="contentt">
+                   <p>We're so sorry to hear your order didn't arrive in perfect condition! Please give us the opportunity to put things right. Our customer service representatives would gladly help you execute a replacement order or issue a refund. You can reach out to our customer care team by clicking here or using the "help" button below..</p>
+               </div>
+           </div>
+           <div class="contentBx">
+                <div class="label">Why can I only order 3 quantities of the same product variation</div>
+                <div class="contentt">
+                    <p>We are making our platform better not only to customers, but to entrepreneurs. We are aware that our products may be reselled. We've come up with this solution to restrict hoarding. If you want to be an official reseller, you may contact us at gazelliete@business.com</p>
+                </div>
+            </div>
+        </div>
+    </main><br>
+
+
+    
+
+
+
+<!-- FOOTER -->
+    <script id="replace_with_footer" src="./js/footer.js"></script>
+    <!-- END OF FOOTER -->
+    
+    <script>
+        const accordion = document.getElementsByClassName
+        ('contentBx');
+        for (i =0; i<accordion.length; i++){
+            accordion[i].addEventListener('click', function(){
+                this.classList.toggle('active')
+            })
+        }
+    </script>
+</body>
+</html>

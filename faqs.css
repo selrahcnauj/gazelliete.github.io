@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    min-height: 100%;
+}
+
+
+main{
+
+
+}
+
+.accordion
+{
+
+    height: 90vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+}
+.accordion .contentBx
+{
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 2.5vh;
+}
+.accordion .contentBx .label
+{
+    position: relative;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    cursor:  pointer;
+    border-radius: 20px;
+}
+.accordion .contentBx .label::before
+{
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+.accordion .contentBx.active .label::before
+{
+    content: '-';
+}
+.accordion .contentBx .contentt
+{
+    position: relative;
+    background: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+    
+}
+.accordion .contentBx .contentt
+{
+
+}
+.accordion .contentBx.active .contentt
+{
+    height: 20vh;
+    
+    padding: 5px;
+}
+
+
+/* Footer */
+.footer{
+    margin-bottom: -2vh;
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+}
+.footer .footer-hotdog{
+    height: 10vh;
+    color: white;
+    border-bottom: 1px solid white;
+    margin: 0 50vw 0 10vw;
+}
+.footer .footer-hotdog h2{
+    padding-top: 5vh;
+    padding-left: 5vw;
+}
+.footer .footer-cheesedog ul{
+    display: flex;
+    list-style: none;
+    padding: 3vh;
+}
+.footer .footer-cheesedog ul li{
+    padding-left: 6vw;
+    font-size: 1.2em;
+}
+.footer .footer-cheesedog ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer .footer-cheesedog ul li i{
+    font-size: 1.5em;
+}
